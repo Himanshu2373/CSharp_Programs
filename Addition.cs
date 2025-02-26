@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace CSharp_programs
 {
-    public class Himanshu
+    internal class Addition
     {
-        public void display()
+        public void Add()
         {
-            Console.WriteLine("Hii Himanshu");
+            Console.WriteLine(4 + 5);
         }
     }
 }
